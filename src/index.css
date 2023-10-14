@@ -594,7 +594,7 @@ padding-right: 20%;
       margin-right: 5% !important;
     }
     .firstbutton{
-    width: 90%;
+    width: 85%;
     }
 }
 
@@ -693,6 +693,20 @@ padding-bottom: 4%;
 
 .firsttext{
 margin: 1% 5% 5% 4%;
+  font-size: 25px;
+
+}
+.secondsectext{
+  font-size: 30px;
+}
+.secondlasttext{
+  font-size: 14px;
+}
+.submain1{
+  font-size: 22px !important;
+}
+.submain2{
+  font-size: 20px !important;
 }
 
 }
@@ -741,7 +755,18 @@ margin: 1% 5% 5% 4%;
     font-size:32px;
   }
   .firsttext{
-    font-size: 30px;
+    font-size: 20px;
+  }
+  .secondsectext{
+    font-size: 20px;
+  }
+  .secondlasttext{
+    font-size: 10px;
+  }
+  .submain1{
+    font-size: 20px !important;
+  }
+  .submain2{
+    font-size: 18px !important;
   }
 }
-
