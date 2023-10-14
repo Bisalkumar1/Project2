@@ -38,8 +38,8 @@ separation of the soul and body — but these can be corrected by installing a c
         </div>
         
 
-        <div className="reviews">
-            <div className='reviewstexthead' style={{paddingBottom:'5%'}}>What industry experts are saying about 
+        <div className="reviews parallax2 parallax-content">
+            <div className='reviewstexthead' style={{paddingBottom:'5%',marginBottom:'5%'}}>What industry experts are saying about 
 ARTIFACT-ORIENTED MARKETING</div>
 
 <div className="comments">

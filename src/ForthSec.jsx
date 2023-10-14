@@ -12,7 +12,7 @@ const ForthSec = () => {
     <div className="Forthsecimgtext">
 
         <div className="Forthsecimg">
-<img src={image5} alt="fouthimage5"/>
+<img src={image5} alt="fouthimage5" className='fouthimage5'/>
         </div>
 
         <div className="Forthsectext">
@@ -29,15 +29,17 @@ const ForthSec = () => {
          in an ancient script, the very appearance of which fills
           me with a subtle terror. But my gosh, the sales!”</div>
         </div>
+
     </div>
+
     </div>
 
 <div className='sorrynextsec'>
     <div className='sorrysectex'>See How Nancy Uses Her Artifact to Keep the Flowers Growing!</div>
     <div className='sorrydisplimage'> <span><img src={image6} alt="sorrydisplimage" className='sorrydisplimagesize'/></span>
     <div className='sorrydisplimagetxt'>
-        <div style={{color:'white',font:'48px lato',fontWeight:'700'}} >Sorry</div>
-        <div style={{color:'white',font:'28px lato'}}>This Video does not exist.</div>
+        <div style={{color:'white',font:'48px Lato',fontWeight:'700'}} className='sorrythis1'>Sorry</div>
+        <div style={{color:'white',font:'28px Lato'}} className='sorrythis2'>This Video does not exist.</div>
     </div></div>
 </div>
 

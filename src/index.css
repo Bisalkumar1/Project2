@@ -45,7 +45,12 @@ text-decoration: underline;
     align-items: center;
     margin: 5% 15% 2% 15%;
   }
-
+  .submain1{
+margin-right: 4%;
+  }
+  .submain2{
+margin-left: 4%;
+  }
   .btn{
     display: flex;
     justify-content: center;
@@ -69,6 +74,34 @@ font-style: normal;
 text-align: center;
 font-family: 'Montserrat';
   }
+
+  .parallax{
+    background-image: url('./Images/backimage1.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ z-index: -1;
+ position: relative;
+
+}
+
+.parallax:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(5, 5, 5, 0.7); 
+  z-index: -5;
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 1;
+}
 
   .image2{
     text-align: center;
@@ -154,10 +187,11 @@ margin: 0% 30% 0% 30% ;
   margin-right: 6%;
   margin-bottom: 15%;
   display: inline-block;
-  width: 35%;
+  width: 80%;
   font-family:'Lato';
   font-size: 18px;
 }
+
 .queshandimage{
   float: left;
   margin-right:15%;
@@ -169,8 +203,8 @@ margin: 0% 30% 0% 30% ;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 6%;
+  padding-right: 6%;
   padding-top: 4%;
   padding-bottom: 5%;
 }
@@ -178,8 +212,9 @@ margin: 0% 30% 0% 30% ;
   font-size: 36px;
   font-family: 'Montserrat';
   color:#ffffff;
-  margin-left:25%;
-  margin-right:25%;
+ width: 80%;
+ margin-left: 20%;
+ margin-right: 10%;
   text-align: center;
   text-align: left;
 margin-bottom: 3%;
@@ -204,6 +239,28 @@ word-spacing: 1px;
 word-spacing: 1px;
 font-weight: 700;
 }
+
+.parallax1{
+  background-image: url('./Images/backimage2.jpeg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ z-index: -1;
+ position: relative;
+}
+
+.parallax1:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(5, 5, 5, 0.5); 
+  z-index: -5;
+}
 .FothSechead{
   font-size: 36px;
    font-family: 'Montserrat';
@@ -212,6 +269,11 @@ font-weight: 700;
   width: 80%;
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.fouthimage5{
+width: 500px;
+
 }
 
 .FothSec,.sorrynextsec,.aftersry{
@@ -269,7 +331,7 @@ width: 100%;
 }
 .sorrydisplimagetxt{
   position: absolute;
-  top: 35%;
+  top: 25%;
   left: 30%;
   right:30%;
 }
@@ -283,6 +345,10 @@ width: 100%;
   color: #373636;
 padding-bottom: 2%;
 }
+
+.aftersorry1,.faqhead,.reviewstexthead,.conclu1{
+  width:80%;
+}
 .aftersorry2{
   font-size: 20px ;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -294,7 +360,7 @@ padding-bottom: 2%;
   padding-bottom: 1% !important;
 }
 .progressbarimg{
-  width: auto;
+  width: 150%;
   height: 300px;
 
 }
@@ -326,6 +392,29 @@ h3{
   padding-top: 2%;
   padding-bottom: 2%;
 }
+.parallax2{
+  background-image: url('./Images/backimage3.jpeg');
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+z-index: -1;
+position: relative;
+}
+
+.parallax2:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(5, 5, 5, 0.9); 
+  z-index: -5;
+}
+
+
 .conclu{
   background-color:rgb(209, 222, 220);
 }
@@ -409,11 +498,250 @@ padding-right: 20%;
 }
 .faceimg{
   position: absolute;
-  top: -10%;
-  left:38%;
+  top: -12%;
+  left:35%;
   
-}
+}          
+    
 .faceimage1{
   border-radius: 50%;
   width: 4rem;
 }
+
+
+@media (max-width:659px) {
+  .firsttext{
+    font-size: 42px;
+  }
+  .thirdsechead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .queshandimage{
+   margin-left: 20%; 
+  }
+  .queshandimagesize{
+    width: 80%;
+  }
+  .thirdsectxt{
+    width: 80%;
+  }
+ 
+  .thirdsecbody2,.thirdsecbody3,.thirdsecbody4{
+    margin-left:15%;
+    margin-right:15%;
+    padding-bottom: 5%;
+  }
+  .thirdsecbody5{
+    margin-left:20%;
+    margin-right:20%;
+    padding-bottom: 3%;
+  }
+  .progressbarimg{
+    width: 150%;
+    padding-right: 4%;
+    height: 400px;
+  
+  }
+ 
+  .comment11{
+    width: 90% !important;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .comments{
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+  }
+
+}
+
+@media (max-width:478px) {
+  .firsttext{
+    font-size: 38px;
+  }
+  .submain{
+    display: flex;
+    flex-direction: column;
+
+  }
+  .submain1{
+    margin-bottom: 10%;
+    display: inline-block;
+  }
+  .Forthsecimgtext{
+    padding-left: 3%;
+  }
+  .fouthimage5{
+    width:100% !important;
+    
+    }
+    .progressbarimg{
+      width: 150%;
+      padding-right: 4%;
+      height: 700px;
+    
+    }
+    .comment11{
+      margin-top: 4%;
+    margin-bottom: 20% !important;
+    }
+    .comments{
+      margin-left: 5% !important;
+      margin-right: 5% !important;
+    }
+    .firstbutton{
+    width: 90%;
+    }
+}
+
+
+@media (max-width:757px){
+  .Forthsecimgtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+  }
+.faqflex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.faqfirst{
+  padding-top: 5%;
+}
+.faqthird{
+  padding-top: 10%;
+}
+.comment11{
+  width: 65% !important;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+.comments{
+  margin-left: 5% !important;
+  margin-right: 5% !important;
+}
+}
+
+
+@media (max-width:890px){
+  .fouthimage5{
+    width: 450px;
+    
+    }
+    .progressbarimg{
+      width: 150%;
+      padding-right: 4%;
+      height: 400px;
+    
+    }
+    .comments{
+      margin-left: 15%;
+      margin-right: 15%;
+    }
+    .comment11{
+      width: 50%;
+      margin-right: 5%;
+      margin-left: 5%;
+    }
+    .conclu3{
+padding-bottom: 4%;
+    }
+}
+
+@media (max-width:511px){
+  .sorrydisplimagetxt{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    right:30%;
+  }
+  .sorrythis1{
+    font-size: 30px !important;
+  }
+  .sorrythis2{
+    font-size: 18px !important;
+  }
+  .aftersorry1{
+    width:100%;
+    padding-top: 3%;
+  }
+  .progressbarimg{
+    width: 150%;
+    padding-right: 4%;
+    height: 500px;
+  
+  }
+    .comments{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  }
+  .comment11{
+    margin-bottom: 10%;
+
+  }
+
+.firsttext{
+margin: 1% 5% 5% 4%;
+}
+
+}
+
+@media (max-width:326px){
+
+  .sorrythis1{
+    font-size: 26px !important;
+  }
+  .sorrythis2{
+    font-size: 12px !important;
+  }
+  .progressbarimg{
+    width: 150%;
+    padding-right: 4%;
+    height: 750px;
+  
+  }
+  .comment11{
+    margin-top: 10%;
+  margin-bottom: 25% !important;
+  }
+
+  .faceimg{
+    top: -12%;
+    left:30%;
+    
+  }  
+  .conclu1{
+    font-size: 32px;
+  }  
+  .secondsectext{
+    padding-bottom: 10%;
+  }   
+  .firsttext{
+    font-size: 38px;
+  } 
+  .FothSechead{
+    font-size: 29px;
+  }  
+  .aftersorry1{
+    font-size: 32px;
+    padding-bottom: 5% ;
+  }
+  .reviewstexthead{
+    font-size:32px;
+  }
+  .firsttext{
+    font-size: 30px;
+  }
+}
+

@@ -3,7 +3,7 @@ import image4 from './Images/image4.png';
 const ThirdSec = () => {
   return (
  <>
-    <div className="thirdsec">
+    <div className="thirdsec  parallax1">
 
 <div className="thirdsechead">
     <div className="thirdsectxt">
@@ -12,7 +12,7 @@ const ThirdSec = () => {
       you listen very closely, you can hear it softly whispering
        the names of people you have yet to meet.
     </div>
-    <div className='queshandimage'><img src={image4} alt="queshandimage" /></div>
+    <div className='queshandimage'><img src={image4} alt="queshandimage" className='queshandimagesize'/></div>
 </div>
 <section className='thirdsecbody'>
 <div className='thirdsecbody1'>
