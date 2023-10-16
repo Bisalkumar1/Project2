@@ -31,7 +31,8 @@ body{
 
 .firsttext1,.underlinepurplecoltext{
 text-decoration: underline;
-}
+} 
+
 .firsttext2{
   text-decoration: underline;
   color: rgb(255,255,255) ;
@@ -43,7 +44,7 @@ text-decoration: underline;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 5% 15% 2% 15%;
+    margin: 5% 15% 2% 18%;
   }
   .submain1{
 margin-right: 4%;
@@ -358,10 +359,12 @@ padding-bottom: 2%;
 
 .courseday{
   padding-bottom: 1% !important;
+  margin-left: -15%;
 }
 .progressbarimg{
   width: 150%;
   height: 300px;
+
 
 }
 .coursedaytext{
@@ -383,6 +386,7 @@ h3{
   font:20px 'Montserrat';
   
 }
+
 .footer,.conclu,.reviews,.faq{
   display: flex;
   flex-direction: column;
@@ -443,16 +447,25 @@ padding-top:5% ;
   background-color:rgb(231, 233, 233) ;
 }
 .faqflex{
+padding-left: 5%;
+padding-right: 5%;
   text-align: center;
-padding-left: 25%;
-padding-right: 20%;
-
+  background-image: url('./Images/Endques.png');
+  background-repeat: no-repeat;
+  background-position: 50% 40%;
+  background-size: 120px;
 
 }
-.faqsecondimg{
-  margin-right: 3%;
-  margin-left: 3%;
+.faqfirst{
+  padding-top: 10%;
+  margin-right: 10%;
 }
+.faqthird{
+  padding-top: 10%;
+  margin-left: 10%;
+}
+
+
 .faqfirstQandA{
   display: flex;
   flex-direction: row;
@@ -472,7 +485,7 @@ padding-right: 20%;
   font-family: 'Montserrat';
   color: #252525;
   text-align: left;
-  display: inline-block;
+ width: 250px;
 }
 .Answer{
   text-align: left;
@@ -481,6 +494,7 @@ padding-right: 20%;
   color:#808080;
   display: inline-block;
   padding-bottom: 15%;
+  width: 250px;
 }
 .Quesmark{
   width:10rem;
@@ -499,7 +513,7 @@ padding-right: 20%;
 .faceimg{
   position: absolute;
   top: -12%;
-  left:35%;
+  left:39%;
   
 }          
     
@@ -556,7 +570,17 @@ padding-right: 20%;
     margin-left: 5% !important;
     margin-right: 5% !important;
   }
-
+  .faqflex{
+    margin-left: 8% !important;
+    }
+    .secondlasttext{
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+    .faceimg{
+      top: -11%;
+      left:34%;
+    }
 }
 
 @media (max-width:478px) {
@@ -596,6 +620,35 @@ padding-right: 20%;
     .firstbutton{
     width: 85%;
     }
+    .faqhead{
+      font-size: 32px;
+    }
+    .conclu1{
+      font-size: 30px;
+    }
+    .conclu3,.conclu4{
+      font-size: 24px;
+    }
+    .conclu2{
+      font-size: 18px;
+    }
+    .courseday{
+      margin-left: -30%;
+    }
+    .secondlasttext{
+      font-size: 16px;
+  
+    }
+    .submain2{
+      margin-left: 0% !important;
+    }
+    .submain{
+      margin-left: 20% !important;
+    }
+    .faceimg{
+      top: -12% !important;
+      left:33% !important;
+    }
 }
 
 
@@ -617,7 +670,9 @@ padding-right: 20%;
   padding-top: 5%;
 }
 .faqthird{
-  padding-top: 10%;
+  padding-top: 5%;
+    margin-right: 26%;
+ 
 }
 .comment11{
   width: 65% !important;
@@ -628,6 +683,7 @@ padding-right: 20%;
   margin-left: 5% !important;
   margin-right: 5% !important;
 }
+
 }
 
 
@@ -639,7 +695,7 @@ padding-right: 20%;
     .progressbarimg{
       width: 150%;
       padding-right: 4%;
-      height: 400px;
+      height: 320px;
     
     }
     .comments{
@@ -653,6 +709,9 @@ padding-right: 20%;
     }
     .conclu3{
 padding-bottom: 4%;
+    }
+    .courseday{
+      margin-left: -25%;
     }
 }
 
@@ -700,7 +759,8 @@ margin: 1% 5% 5% 4%;
   font-size: 30px;
 }
 .secondlasttext{
-  font-size: 14px;
+  font-size: 12px;
+  
 }
 .submain1{
   font-size: 22px !important;
@@ -709,6 +769,20 @@ margin: 1% 5% 5% 4%;
   font-size: 20px !important;
 }
 
+.aftersorry1{
+  font-size: 30px;
+}
+.aftersorry2{
+  font-size: 18px;
+}
+.submain{
+  margin-left: 10%;
+margin-right: 10%;
+}
+.faceimg{
+  top: -13%;
+  left:37%;
+}
 }
 
 @media (max-width:327px){
@@ -722,14 +796,14 @@ margin: 1% 5% 5% 4%;
   .progressbarimg{
     width: 150%;
     padding-right: 4%;
-    height: 750px;
+    height: 600px;
   
   }
   .comment11{
     margin-top: 10%;
   margin-bottom: 25% !important;
   }
-
+   
   .faceimg{
     top: -12%;
     left:30%;
@@ -768,5 +842,51 @@ margin: 1% 5% 5% 4%;
   }
   .submain2{
     font-size: 18px !important;
+  }
+  .faqflex{
+  margin-left: 3%;
+  margin-right: 3%;
+  }
+
+  .question{
+    font-size: 16px;
+   width: 150px;
+  }
+  .Answer{
+    font-size: 12px;
+    width: 150px;
+  }
+  .conclu1{
+    font-size: 30px;
+  }
+  .conclu3,.conclu4{
+    font-size: 24px;
+  }
+  .conclu2{
+    font-size: 18px;
+  }
+  .courseday{
+    margin-left: -50%;
+  }
+  .aftersorry1{
+    font-size: 28px;
+  }
+  .aftersorry2{
+    font-size: 16px;
+  }
+  .faceimg{
+    top: -12%;
+    left:32%;
+  }
+}
+
+@media (max-width:280px) {
+  .faceimg{
+    top: -11% !important;
+    left:27% !important;
+  
+  }
+  .faceimage1{
+padding-bottom: 3%;
   }
 }

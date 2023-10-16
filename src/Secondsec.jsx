@@ -7,7 +7,7 @@ const Secondsec = () => {
   return (
   <>
   <div className="secondsec">
-    <div className='secondsectext'> <span className='underlinepurplecoltext'> Hexerve </span> is #1 Digital Marketing Company specialized in <span className='underlinepurplecoltext'> Medspa Marketing </span>. We Create and Automate a complete <span className='underlinepurplecoltext'> DONE-FOR-YOU </span> System for <span className='underlinepurplecoltext'> Lead Generation </span> and Sales Pipeline. </div>
+    <div className='secondsectext'> <span className='underlinepurplecoltext'> Hexerve </span> is #1 Digital Marketing Company specialized in <span className='underlinepurplecoltext'> Medspa Marketing </span>. We create and automate a complete <span className='underlinepurplecoltext'> DONE-FOR-YOU </span> system for <span className='underlinepurplecoltext'> Lead Generation </span> and sales pipeline. </div>
    
    <section className='image-contain'>
 <img src={image2} alt="imagedisplay" className='imagedisplay'/> 

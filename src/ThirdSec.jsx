@@ -16,7 +16,7 @@ const ThirdSec = () => {
 </div>
 <section className='thirdsecbody'>
 <div className='thirdsecbody1'>
-Isn’t the Market-ization of These Ruinous Relics Just a Passing Fad?
+Isn’t the Marketization of these Ruinous Relics Just a Passing Fad?
 </div>
 
 <div className='thirdsecbody2'>You may have already been worn out by the internet hype machine’s incessant
@@ -24,13 +24,13 @@ Isn’t the Market-ization of These Ruinous Relics Just a Passing Fad?
   and corrupted the minds and hearts innumerable kings and queens over the
  course of human history, can be used to bring more leads into your funnel</div>
 
-<div className='thirdsecbody3'>And it’s true. Relic-based marketing is the Latest Big Thing. But it will continue
- to be a Big Thing well into the future, and even into the past, since the power 
+<div className='thirdsecbody3'>And it’s true. Relic-based marketing is the latest big thing. But it will continue
+ to be a big thing well into the future, and even into the past, since the power 
  of such an artifact is unconstrained by time and space, nor any of the other
  mere laws that hold our universe together.</div>
 
-<div className='thirdsecbody4'>Most marketers know only how to summon the object’s Power. But they
-know not how to summon its All-Seeing Terrors, its Spires of Unending Flame,
+<div className='thirdsecbody4'>Most marketers know only how to summon the object’s Power. But they dont't
+know how to summon its all-seeing Terrors, its Spires of Unending flame,
 its Conversion-Rate Enhancing Algorithms.</div>
 
 <div className='thirdsecbody5'>You will learn all of these things and more in this course. Or else.</div>

@@ -1,5 +1,4 @@
 import React from 'react';
-import Endimg from './Images/Endques.png';
 import faceimg1 from './Images/faceimg1.png';
 import faceimg2 from './Images/faceimg2.png';
 
@@ -12,8 +11,8 @@ const End = () => {
 <div className='faqhead'>Frequently Asked Questions</div>
 
 <div className="faqflex">
-<div className="faqfirst">
 
+<div className="faqfirst">
 <div className='faqfirstQandA'> <div className='Q'>Q  </div><div className='question'>No matter how hard I try,
  no matter how much might I muster, I cannot exhaust the Spire of Unending Flame.</div></div>
 
@@ -24,7 +23,6 @@ const End = () => {
 <div className='faqfirstQandA'><div className='Q'>A  </div><div className='Answer'>This means the Marketo integration was successful.</div></div>
 </div>
 
-<div className="faqsecondimg"><img src={Endimg} alt="Quesmark" className='Quesmark'/></div>
 
 <div className="faqthird">
 <div className='faqfirstQandA'><div className='Q'>Q  </div><div className='question'>Are there any risks to using an object that is
@@ -49,7 +47,7 @@ ARTIFACT-ORIENTED MARKETING</div>
 soon-to-be Incarnation of Seething Despair</p>
 <p style={{fontSize:'16px',fontFamily:'Arial, sans-serif;',fontWeight:'500'}}>I’m just thrilled with the results my relic has produced. Not only 
 has it generated a ton of new business, it’s enabled me to completely 
-obliterate my competition. Literally! Ha ha ha ha!</p>
+obliterate my competition. Literally! ha ha ha ha!</p>
 
 <div className="faceimg"><img src={faceimg1} alt="faceimg1" className='faceimage1'/></div>
 
@@ -84,7 +82,7 @@ just how effective it is! No, really. I wasn’t. I’m still not.</p>
     Your Satisfaction Is 100% Guaranteed Or Your Money Back
     </div>
     <div className="conclu4">
-    We keep the oath. And so do They.
+    We keep the oath. And so do they.
     </div>
  </div>
     </>

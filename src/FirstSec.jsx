@@ -10,17 +10,17 @@ const FirstSec = () => {
        
       <div className="firsttext">Scaling MedSpa Businesses from $10K Per Month to <span className='firsttext1'>$50K in 30 Days </span> with our Lead Generation Machine and Automation with AI or You <span className='firsttext2'> Don't Pay</span></div>
 <div className="submain">
-    <div className="submain1" style={{fontWeight:'500',font:'26px lato',fontStyle:'italic',color:'white'}}>
+    <div className="submain1" style={{fontWeight:'500',font:'24px Lato',fontStyle:'italic',color:'white'}}>
    <div style={{paddingBottom:'4%'}}>Successfully Scaled 500+ Clients</div>
    <div style={{paddingBottom:'4%'}}>20+ Years of Expertise</div>
    <div>Proven System</div>
     </div>
 
-    <div className="submain2" style={{fontWeight:'800',font:'20px montserrat',fontStyle:'normal',color:'white'}}>
+    <div className="submain2" style={{fontWeight:'800',font:'21px montserrat',fontStyle:'normal',color:'white'}}>
 <div style={{paddingBottom:'4%'}}>Slimming & Beauty Centers</div>
 <div style={{paddingBottom:'4%'}}>Aesthetics and Body Sculpting Clinics</div>
 <div style={{paddingBottom:'4%'}}>Botox Clinics and Dermatologists</div>
-<div>Semaglutide and Harmone Providers</div>
+<div>Semaglutide and Hormone Providers</div>
     </div>
 </div>
 

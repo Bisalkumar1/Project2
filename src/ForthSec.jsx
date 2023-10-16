@@ -7,7 +7,7 @@ const ForthSec = () => {
   return (
    <>
     <div className="FothSec">
-        <div className='FothSechead'>Nancy’s Business FLOURISHED Thanks to Her Own Fragment of the Damned</div>
+        <div className='FothSechead'>Nancy’s Business FLOURISHED thanks to her Own Fragment of the Damned</div>
     
     <div className="Forthsecimgtext">
 
@@ -16,7 +16,7 @@ const ForthSec = () => {
         </div>
 
         <div className="Forthsectext">
-            <div className='Forthsectext1'>Nancy’s Flower Shop was in some seriously dire
+            <div className='Forthsectext1'>Nancy’s Flower shop was in some seriously dire
              straits! Her next-day flower delivery service wasn’t 
              getting the online traction it needed. Just as she was
               beginning to run out of rope, a one-eyed fragment of 
